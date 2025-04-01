@@ -1,9 +1,11 @@
+import LogInForm from "./LogInForm.tsx"
+
 function App() {
 
   return (
-    <>
-      <h2 className="flex justify-center">Hello World</h2>
-    </>
+    <div className="flex justify-center items-center bg-[#007EA7] w-[85vw] h-[100vh]">
+      <LogInForm/>
+    </div>
   )
 }
 

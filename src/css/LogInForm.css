@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer components{
+    .log-in-form-container{
+        @apply flex justify-center items-center flex-col w-[20vw] gap-3 rounded-md
+    }
+
+    .log-in-form-container input[type=text]{
+        @apply border border-gray-300 w-full p-3 rounded-md
+    }
+
+    .log-in-form-container button{
+        @apply bg-[#0866FF] w-full p-3 text-white cursor-pointer rounded-md hover:bg-[#0654CC]
+    }
+}
