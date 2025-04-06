@@ -5,7 +5,8 @@
         @apply flex justify-center items-center flex-col w-[20vw] gap-3 rounded-md
     }
 
-    .log-in-form-container input[type=text]{
+    .log-in-form-container input[type=text],
+    .log-in-form-container input[type="password"]{
         @apply border border-gray-300 w-full p-3 rounded-md
     }
 
