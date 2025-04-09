@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+
+@layer components{
+
+    .home-container{
+        @apply w-[20vw] h-[100vh] bg-[#80CED7]
+    }
+
+    .navigation-container p{
+        @apply text-lg;
+    }
+
+    .dash-board-container{
+        @apply flex items-center gap-5 p-4 hover:bg-[#70b4bb] cursor-pointer
+    }
+
+    .category-container{
+        @apply grid grid-cols-[17%_67%_16%] p-4 hover:bg-[#70b4bb] cursor-pointer
+    }
+
+    .purchase-container{
+        @apply grid grid-cols-[17%_67%_16%] p-4 hover:bg-[#70b4bb] cursor-pointer
+    }
+
+    .expense-container{
+        @apply grid grid-cols-[17%_67%_16%] p-4 hover:bg-[#70b4bb] cursor-pointer
+    }
+
+    .setting-container{
+        @apply grid grid-cols-[17%_67%_16%] p-4 hover:bg-[#70b4bb] cursor-pointer
+    }
+}

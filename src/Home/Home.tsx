@@ -1,7 +1,9 @@
+import NavigationBar from './NavigationBar'
+
 function Home(){
     return(
         <div>
-            HomePages
+            <NavigationBar/>
         </div>
     )
 }
