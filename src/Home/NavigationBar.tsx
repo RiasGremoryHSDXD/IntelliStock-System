@@ -1,6 +1,5 @@
 import '../css/NavigationBar.css'
 import Dashboard from './DashBoard/DashBoard'
-import Category from './Category'
 import  Logo from '../assets/IntelliStockLogo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChartColumn, faChevronDown, faTableCellsLarge, faCartShopping, faReceipt, faGear} from '@fortawesome/free-solid-svg-icons'
