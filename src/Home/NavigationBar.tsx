@@ -1,5 +1,5 @@
 import '../css/NavigationBar.css'
-import Dashboard from './DashBoard'
+import Dashboard from './DashBoard/DashBoard'
 import Category from './Category'
 import  Logo from '../assets/IntelliStockLogo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -28,16 +28,16 @@ function Home(){
 
                 <div className='navigation-container'>
 
-                    <div className='dash-board-container'>
+                    <button className='dash-board-container' onClick={btn_one}>
                         <FontAwesomeIcon size='2x' icon={faChartColumn}/>
                         <p>Dashboard</p>
-                    </div>
+                    </button>
 
-                    <div className='category-container'>
-                        <FontAwesomeIcon size='2x' icon={faTableCellsLarge}/>
-                        <p>Category</p>
-                        <FontAwesomeIcon size='2x' icon={faChevronDown}/>
-                    </div>
+                    <button className='category-container' onClick={btn_two}>
+                        <FontAwesomeIcon size='2x' icon={faTableCellsLarge} className='border-1'/>
+                        <p className='border-1'>Category</p>
+                        <FontAwesomeIcon className='border-1' size='2x' icon={faChevronDown}/>
+                    </button>
 
                     <div className='purchase-container'>
                         <FontAwesomeIcon size='2x' icon={faCartShopping}/>
@@ -60,10 +60,7 @@ function Home(){
             </div>
 
             {displayPage === 1 && <Dashboard />}
-            {displayPage === 2 && <Category />}
 
-            <button className='border-2 p-2 w-fit h-fit' onClick={btn_one}>DashBoard</button>
-            <button className='border-2 p-2 w-fit h-fit' onClick={btn_two}>Category</button>
         </div>
     )
 }

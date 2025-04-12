@@ -15,7 +15,7 @@
     }
 
     .category-container{
-        @apply grid grid-cols-[17%_67%_16%] p-4 hover:bg-[#70b4bb] cursor-pointer
+        @apply grid grid-cols-[0.1%_60%_38%] p-4 hover:bg-[#70b4bb] cursor-pointer w-[100%]
     }
 
     .purchase-container{

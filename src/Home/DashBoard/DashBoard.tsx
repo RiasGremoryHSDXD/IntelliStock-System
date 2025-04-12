@@ -1,7 +1,7 @@
 function Dashboard(){
     return(
-        <div>
-            <h1>WEW</h1>
+        <div className="bg-red-300">
+            <h1>wew</h1>
         </div>
     )
 }
